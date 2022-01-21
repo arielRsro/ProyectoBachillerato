@@ -1,0 +1,41 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    margin-top: 130px;
+}
+
+#parte2{
+    background: #ececec;
+    padding: 50px 0px 30px 0px;
+    text-align: center;
+}
+
+#parte3{
+    text-align: center;
+}
+
+#textopg{
+    text-align: left;
+}
+
+#piepag{
+    background: #aaaaaa;
+    padding: 3px 0px 20px 0px;
+    text-align: center;
+}
+
+#navbar{
+    animation: myAnim 1s ease-out 0s 1 normal forwards;
+}
+
+@keyframes myAnim {
+    0% {
+      transform: translateY(-100px);
+    }
+  
+    100% {
+      transform: translateY(0px);
+    }
+  }
